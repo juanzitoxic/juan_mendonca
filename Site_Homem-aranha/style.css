@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Home*/
+body{
+    background-color:rgb(255, 37, 37) ;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.menu{
+    background: rgb(177, 16, 16); 
+    border-bottom: 3px solid rgb(30, 105, 243); 
+}
+#menu-novo{
+    background: rgb(177, 16, 16);  
+}
+a{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+}
+.nav-item{
+    margin: 0 20px ;
+}
+.carousel-inner{
+    border-bottom: 3px solid rgb(30, 105, 243); 
+}
+.card{
+    background-color: rgb(30, 105, 243);
+}
+.card-g{
+    display:flex;
+    gap: 20px;
+    margin-top: 50px;
+    font-size: 20px;
+    text-align: justify;
+}
+/*sobre*/
+.rodape{
+    color: rgb(30, 105, 243);
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 15px;
+    background-color: rgb(177, 16, 16);
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+  }
+hr{
+    margin-top: 130px;
+    border-top: 3px solid rgb(30, 105, 243);
+}
+
+.gambiarra{
+    background-color: rgb(177, 16, 16);
+}
+.texto-sobre{
+    margin: 0 auto;
+    background-color: rgb(30, 105, 243);
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 25px;
+    width: 500px;
+    text-align: justify;
+}
+
+.sobre-titulo{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    font-size: 35px;
+}
+
+/*contato*/
+.contato-titulo{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    font-size: 33px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    background-color: rgb(30, 105, 243);
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 25px;
+}
+.btn{
+    color: rgb(20, 20, 20);
+    background-color: rgb(177, 16, 16);
+    border-radius: 15px;
+}
+label{
+    font-size: 25px;
+}
+textarea{
+    resize: none;
+    border-radius: 5px;
+  }
+  .hr-contato{
+    margin-top: 90px;
+}
+  
+
+/*responsividade*/
+
+@media screen and (min-width:768px) and (max-width:1024px){
+    /*home*/
+    hr{
+        margin-top: 60px;
+    }
+    .card-body{
+        font-size: 22px;
+    }
+    .carousel-item{
+        height: 300px;
+    }
+    /*sobre*/
+    .sobre-titulo{
+        margin-top: 20px;
+    }
+    .texto-sobre{
+        width: 600px;
+        font-size: 25px;
+    }
+    .hr{
+        margin-top: 42px;
+    }
+    /*contato*/
+    label{
+        font-size: 25px;
+    }
+    input{
+        font-size: 15px;
+    }
+    .btn{
+        font-size: 25px;
+
+    }
+    .contato-titulo{
+        margin-top: 50px;
+    }
+    .hr-contato{
+        margin-top: 100px;
+    }
+}
